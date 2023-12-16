@@ -1,0 +1,666 @@
+
+#myBtn {
+    position: fixed; 
+    background-color: white;
+    color: #3b3b3b; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 20px;
+    border: none; 
+    outline: none;
+    font-size: 22px;
+    font-family: 'marola';
+    bottom: 20px; 
+    right: 30px; 
+    
+  }
+  
+  #myBtn:hover {
+    animation: hilite 2s infinite;
+  }
+
+
+.nav{
+ display: flex;
+ background-image: url(Screen\ Shot\ 2022-08-02\ at\ 8.12.49\ PM.png) ;
+ box-shadow: 0px 0px 10px 10px #3b3b3b;
+ border-radius: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
+ 
+}
+
+@font-face {
+    font-family: 'marola';
+    src: url(MAROLA__.TTF);
+}
+
+@font-face {
+    font-family: 'lemonmilk';
+    src: url(LEMONMILK-Regular.otf);
+}
+
+@keyframes float{
+    0% {
+        transform: translatey(0px);
+      }
+      50% {
+        transform: translatey(-20px);
+      }
+      100% {
+        transform: translatey(0px);
+      }
+}
+@keyframes hilite{
+    0%{
+        box-shadow: 0px 0px 20px 20px #3b3b3b;
+    }
+    50%{
+        box-shadow: 0px 0px 20px 20px #797979;
+    }
+    0%{
+        box-shadow: 0px 0px 20px 20px #3b3b3b;
+    }
+}
+
+.filler-1{
+    font-size: 10px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(5, 5, 5);
+}
+
+.logo{
+    max-width: 40px;
+    max-height: 40px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 20%;
+}
+
+ul{
+    list-style-type: none; 
+    margin: 0;
+    padding:0;
+}
+
+li{
+    float:right;
+    padding-left: 50px;
+    font-family: 'marola';
+
+
+}
+
+a{
+    display: block;
+    padding: 20px;
+    font-size: larger;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+a:hover{
+    scale: 120%;
+}
+
+body{
+    background-color: rgb(5, 5, 5);
+}
+
+
+
+.toptop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(5, 5, 5);
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+}
+
+.elle{
+    max-width: 400px;
+    max-height: 400px;
+  box-shadow: 0px 0px 20px 20px #3b3b3b;
+  border-radius: 50%;  
+}
+
+.elle:hover{
+    animation: hilite 2s infinite;
+}
+
+.psych{
+    max-width: 400px;
+    max-height: 400px;
+  box-shadow: 0px 0px 20px 20px #3b3b3b;
+  border-radius: 50%;
+}
+
+.psych:hover{
+    animation: hilite 2s infinite;
+}
+
+.lod{
+    max-width: 400px;
+    max-height: 400px;
+  box-shadow: 0px 0px 20px 20px #3b3b3b;
+  border-radius: 50%;
+}
+
+.lod:hover{
+    animation: hilite 2s infinite;
+}
+
+.top{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.wid{
+    max-width: 400px;
+    max-height: 400px;
+  box-shadow: 0px 0px 20px 20px #3b3b3b;
+  border-radius: 50%;
+}
+
+.wid:hover{
+    animation: hilite 2s infinite;
+}
+
+.lookeye{
+  border-radius: 100%;
+  padding-right: 80px;
+  margin: 0 0 0 0;
+}
+
+.mugshot{
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: 0px 0px 20px 20px #3b3b3b;
+    border-radius: 50%;
+}
+
+.mugshot:hover{
+    animation: hilite 2s infinite;
+}
+
+
+.filler{
+    font-size: 50px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(5, 5, 5);
+}
+
+.filler0{
+    display: flex;
+    justify-content:center;
+    font-size: 170px;
+    font-family: 'marola';
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(5, 5, 5);
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 10px 10px #3b3b3b;
+    animation: float 7s ease-in-out infinite;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(5, 5, 5);
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 200px;
+}
+
+.forest{
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: 0px 0px 20px 20px #3b3b3b;
+    border-radius: 50%;
+}
+
+.forest:hover{
+    animation: hilite 2s infinite;
+}
+
+.tvims{
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: 0px 0px 20px 20px #3b3b3b;
+    border-radius: 50%;
+}
+
+.tvims:hover{
+    animation: hilite 2s infinite;
+}
+
+.kitty{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 20px 20px #3b3b3b;
+    border-radius: 50%;
+}
+
+.kitty:hover{
+    animation: hilite 2s infinite;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    margin-left: 900px;
+    margin-right: 900px;
+    text-align: center;
+    animation: float 7s ease-in-out infinite;
+    zoom: 0.7;
+
+}
+
+.msg{
+    font-family: 'marola';
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#ffffff;
+    font-size: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.flowers{
+    padding-top: 100px;
+    zoom: 0.5;
+}
+
+.info{
+    font-family: 'marola';
+    color: #ffffff;
+    font-size: 50px;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 40px;
+}
+
+input[type-text], select, textarea{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'lemonmilk';
+    font-size: 20px;
+    resize: vertical;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 10px #ffffff;
+}
+
+input[type=submit]{
+    font-family: 'lemonmilk';
+    border: none;
+    color: hotpink;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color:rgb(5, 5, 5);
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width:1200px){
+
+
+    .logo{
+        max-width: 40px;
+        max-height: 40px;
+
+    }
+  
+    ul{
+        list-style-type: none; 
+        margin: 0;
+        padding:0;
+        width: 80%;
+    }
+    
+    li{
+        font-family: 'marola';
+        padding-left: 0px;
+    
+    
+    }
+    
+    a{
+        font-size:large;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+.filler0{
+    font-size: 90px;
+    font-family: 'marola';
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.flower1{
+    zoom: 0.3;
+    padding-right: 5px;
+    }
+    
+    .flower2{
+    zoom: 0.3;
+    padding-left: 5px;
+    }
+
+    .toptop{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(5, 5, 5);
+        margin-bottom: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .elle{
+        max-width: 150px;
+        max-height: 150px;
+      box-shadow: 0px 0px 10px 10px #3b3b3b;
+      border-radius: 50%;  
+    }
+    
+    .psych{
+        max-width: 150px;
+        max-height: 150px;
+      box-shadow: 0px 0px 10px 10px #3b3b3b;
+      border-radius: 50%;
+    }
+    
+    .lod{
+        max-width: 150px;
+        max-height: 150px;
+      box-shadow: 0px 0px 10px 10px #3b3b3b;
+      border-radius: 50%;
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(5, 5, 5);
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .wid{
+        max-width: 150px;
+        max-height: 150px;
+      box-shadow: 0px 0px 10px 10px #3b3b3b;
+      border-radius: 50%;
+    }
+    
+    .lookeye{
+        zoom: 0.3;
+    }
+    
+    .mugshot{
+        max-width: 150px;
+        max-height: 150px;
+      box-shadow: 0px 0px 10px 10px #3b3b3b;
+      border-radius: 50%;
+    }
+
+    .middle{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(5, 5, 5);
+        margin-top: -50px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .forest{
+        max-width: 150px;
+        max-height: 150px;
+      box-shadow: 0px 0px 10px 10px #3b3b3b;
+      border-radius: 50%;
+    }
+    
+    .tvims{
+        max-width: 150px;
+        max-height: 150px;
+      box-shadow: 0px 0px 10px 10px #3b3b3b;
+      border-radius: 50%;
+    }
+    
+    .kitty{
+        max-width: 150px;
+        max-height: 150px;
+      box-shadow: 0px 0px 10px 10px #3b3b3b;
+      border-radius: 50%;
+    }
+   
+    
+    
+.contact{
+    display: flex;
+    justify-content: space-between;
+    animation: float 7s ease-in-out infinite;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    zoom: 0.7;
+    padding-left: 150px;
+    
+
+}
+
+.msg{
+    font-family: 'marola';
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#ffffff;
+    font-size: 100px;
+}
+
+.flowers{
+    padding-top: 100px;
+    zoom: 0.5;
+}
+
+.info{
+    font-family: 'marola';
+    color: #ffffff;
+    font-size: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+input[type-text], select, textarea{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'lemonmilk';
+    font-size: 20px;
+    resize: vertical;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 10px #ffffff;
+}
+
+input[type=submit]{
+    font-family: 'lemonmilk';
+    border: none;
+    color: hotpink;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color:rgb(5, 5, 5);
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+.nav{
+    max-height: 110px;
+}
+
+li{
+    float:left;
+    padding-left: 20px;
+    font-family: 'marola'; 
+    font-size: smaller;
+}
+
+.filler0{
+margin-top: 40px;
+    font-size: 70px;
+
+}
+
+a{
+    font-size: 13px;
+}
+
+.flower1{
+    zoom: 20%;
+}
+
+.flower2{
+    zoom: 20%;
+}
+
+.elle{
+    max-width: 150px;
+    max-height: 150px;
+  box-shadow: 0px 0px 10px 10px #3b3b3b;
+  border-radius: 50%;  
+}
+
+.psych{
+    max-width: 150px;
+    max-height: 150px;
+  box-shadow: 0px 0px 10px 10px #3b3b3b;
+  border-radius: 50%;
+}
+
+.lod{
+    max-width: 150px;
+    max-height: 150px;
+  box-shadow: 0px 0px 10px 10px #3b3b3b;
+  border-radius: 50%;
+
+}
+   
+.wid{
+    max-width: 150px;
+    max-height: 150px;
+  box-shadow: 0px 0px 10px 10px #3b3b3b;
+  border-radius: 50%;  
+}
+
+.lookeye{
+    zoom: 0.3;
+}
+
+.mugshot{
+    max-width: 150px;
+    max-height: 150px;
+  box-shadow: 0px 0px 10px 10px #3b3b3b;
+  border-radius: 50%;
+
+
+
+} 
+
+.toptop{
+    margin-bottom: 10px;
+}
+
+.filler{
+    font-size: x-small;
+}
+.middle{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.forest{
+    max-width: 150px;
+    max-height: 150px;
+    box-shadow: 0px 0px 10px 10px #3b3b3b;
+}
+
+.kitty{
+    max-width: 150px;
+    max-height: 150px;
+    box-shadow: 0px 0px 10px 10px #3b3b3b;
+}
+
+.tvims{
+    max-width: 150px;
+    max-height: 150px;
+    box-shadow: 0px 0px 10px 10px #3b3b3b;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+    text-align: center;
+    animation: float 7s ease-in-out infinite;
+    zoom: 0.7;
+
+}
+
+.msg{
+    font-family: 'marola';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#ffffff;
+    font-size: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.flowers{
+    padding-top: 100px;
+}
+
+.info{
+    font-family: 'marola';
+    color: #ffffff;
+    font-size: 50px;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 40px;
+}
+
+.middle{
+    margin-bottom: 50px;
+}
+
+}

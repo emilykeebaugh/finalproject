@@ -1,0 +1,510 @@
+#myBtn {
+    position: fixed; 
+    background-color: white;
+    color: #3b3b3b; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 20px;
+    border: none; 
+    outline: none;
+    font-size: 22px;
+    font-family: 'marola';
+    bottom: 20px; 
+    right: 30px; 
+    
+  }
+  
+  #myBtn:hover {
+    animation: hilite 2s infinite;
+  }
+
+.nav{
+    display: flex;
+    background-image: url(Screen\ Shot\ 2022-08-02\ at\ 8.12.49\ PM.png) ;
+    box-shadow: 0px 0px 10px 10px #3b3b3b;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+   }
+ 
+ body{
+    background-color: rgb(5, 5, 5);
+ }  
+
+   @font-face {
+       font-family: 'marola';
+       src: url(MAROLA__.TTF);
+   }
+   
+   @font-face {
+       font-family: 'lemonmilk';
+       src: url(LEMONMILK-Regular.otf);
+   }
+   
+   @keyframes float{
+       0% {
+           transform: translatey(0px);
+         }
+         50% {
+           transform: translatey(-20px);
+         }
+         100% {
+           transform: translatey(0px);
+         }
+   }
+   @keyframes hilite{
+       0%{
+           box-shadow: 0px 0px 20px 20px #3b3b3b;
+       }
+       50%{
+           box-shadow: 0px 0px 20px 20px #797979;
+       }
+       0%{
+           box-shadow: 0px 0px 20px 20px #3b3b3b;
+       }
+   }
+   
+   
+   .logo{
+       max-width: 40px;
+       max-height: 40px;
+       background-color: white;
+       margin-left: 20px;
+       margin-top: 10px;
+       border-radius: 20%;
+   }
+   
+   ul{
+       list-style-type: none; 
+       margin: 0;
+       padding:0;
+   }
+   
+   li{
+       float:right;
+       padding-left: 50px;
+       font-family: 'marola';
+   
+   
+   }
+   
+   a{
+       display: block;
+       padding: 20px;
+       font-size: larger;
+       text-decoration: none;
+       color: antiquewhite;
+       transition: 0.5s;
+   }
+   
+   a:hover{
+       scale: 120%;
+   }
+
+#flower{
+    scale: 70%;
+    padding-left: -190px ;
+    padding-right: -190px;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    font-size: 170px;
+    font-family: 'marola';
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(5, 5, 5);
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 10px 10px #3b3b3b;
+    animation: float 7s ease-in-out infinite;
+}
+
+.first{
+    display: flex;
+    font-family: 'lemonmilk';
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+#me{
+    width: 500px;
+    width: 500px;
+    padding-right: 30px;
+}
+
+.second{
+    display: flex;
+    font-family: 'lemonmilk';
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+#cat{
+    width: 500px;
+    height: 500px;
+    padding-left: 200px;
+}
+
+.third{
+    display: flex;
+    font-family: 'lemonmilk';
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+#coffee{
+    width: 500px;
+    height: 500px;
+    padding-right: 60px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    margin-left: 900px;
+    margin-right: 900px;
+    text-align: center;
+    animation: float 7s ease-in-out infinite;
+    zoom: 0.7;
+
+}
+
+.msg{
+    font-family: 'marola';
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#ffffff;
+    font-size: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.flowers{
+    padding-top: 100px;
+    zoom: 0.5;
+}
+
+.info{
+    font-family: 'marola';
+    color: #ffffff;
+    font-size: 50px;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 40px;
+}
+
+input[type-text], select, textarea{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'lemonmilk';
+    font-size: 20px;
+    resize: vertical;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 10px #ffffff;
+}
+
+input[type=submit]{
+    font-family: 'lemonmilk';
+    border: none;
+    color: hotpink;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color:rgb(5, 5, 5);
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) and (max-width:1200px){
+
+    .logo{
+        max-width: 40px;
+        max-height: 40px;
+    
+    }
+    
+    ul{
+        list-style-type: none; 
+        margin: 0;
+        padding:0;
+        width: 80%;
+    }
+    
+    li{
+        font-family: 'marola';
+        padding-left: 0px;
+    
+    
+    }
+    
+    a{
+        font-size:large;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+  
+    .nav{
+        max-height: 110px;
+    }
+    
+    li{
+        float:left;
+        padding-left: 20px;
+        font-family: 'marola'; 
+        font-size: smaller;
+    }
+
+    #flower{
+        width: 200px;
+        scale: 60%;
+       
+    }
+    
+    header{
+        font-size: 130px;
+    }
+
+    .first{
+        display: inline-block;
+        font-size: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    
+    #me{
+        padding-bottom: 30px;
+    }
+   
+    .second{
+        display: inline-block;
+        font-size: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    
+    #cat{
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 30px;
+    }
+   
+    .third{
+        display: inline-block;
+        font-size: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    
+    #coffee{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        animation: float 7s ease-in-out infinite;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        zoom: 0.7;
+        padding-left: 150px;
+    
+    }
+    
+    .msg{
+        font-family: 'marola';
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color:#ffffff;
+        font-size: 100px;
+    }
+    
+    .flowers{
+        padding-top: 100px;
+        zoom: 0.5;
+    }
+    
+    .info{
+        font-family: 'marola';
+        color: #ffffff;
+        font-size: 50px;
+        border: none;
+        border-radius: 30px;
+    }
+    
+    input[type-text], select, textarea{
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'lemonmilk';
+        font-size: 20px;
+        resize: vertical;
+        margin-top: 40px;
+        box-shadow: 0px 0px 10px 10px #ffffff;
+    }
+    
+    input[type=submit]{
+        font-family: 'lemonmilk';
+        border: none;
+        color: hotpink;
+        margin-top: 20px;
+        border-radius: 15px;
+        background-color:rgb(5, 5, 5);
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+ 
+.nav{
+    max-height: 110px;
+}
+
+li{
+    float:left;
+    padding-left: 20px;
+    font-family: 'marola'; 
+    font-size: smaller;
+}
+
+a{
+font-size: 13px;
+}
+
+#flower{
+    scale: 60%;
+    width: 100px;
+    height: 200px;
+    padding-left: -40px ;
+   padding-right: -40px;
+   
+}
+
+header{
+    font-size: 80px;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    width: 460px;
+    display:flex;
+    justify-content: center;
+}
+
+    .first{
+        display: inline-block;
+        font-size: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    
+    #me{
+        padding-bottom: 30px;
+        width: 410px;
+        height: 410px;
+    }
+   
+    .second{
+        display: inline-block;
+        font-size: 25px;
+        padding-left: 30px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    
+    #cat{
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 30px;
+        width: 410px;
+        height: 410px;
+    }
+   
+    .third{
+        display: inline-block;
+        font-size: 25px;
+        padding-left: 30px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    
+    #coffee{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 410px;
+        height: 410px;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 20px;
+        text-align: center;
+        animation: float 7s ease-in-out infinite;
+        zoom: 0.7;
+    
+    }
+    
+    .msg{
+        font-family: 'marola';
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color:#ffffff;
+        font-size: 100px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .flowers{
+        padding-top: 100px;
+    }
+    
+    .info{
+        font-family: 'marola';
+        color: #ffffff;
+        font-size: 50px;
+        border: none;
+        border-radius: 30px;
+        padding: 30px;
+        margin: 40px;
+    }
+    
+}

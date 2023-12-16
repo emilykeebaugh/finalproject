@@ -1,0 +1,642 @@
+#myBtn {
+    position: fixed; 
+    background-color: white;
+    color: #3b3b3b; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 20px;
+    border: none; 
+    outline: none;
+    font-size: 22px;
+    font-family: 'marola';
+    bottom: 20px; 
+    right: 30px; 
+    
+  }
+  
+  #myBtn:hover {
+    animation: hilite 2s infinite;
+  }
+
+.nav{
+    display: flex;
+    background-image: url(Screen\ Shot\ 2022-08-02\ at\ 8.12.49\ PM.png) ;
+    box-shadow: 0px 0px 10px 10px #3b3b3b;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+   }
+ 
+ body{
+    background-color: rgb(5, 5, 5);
+ }  
+
+   @font-face {
+       font-family: 'marola';
+       src: url(MAROLA__.TTF);
+   }
+   
+   @font-face {
+       font-family: 'lemonmilk';
+       src: url(LEMONMILK-Regular.otf);
+   }
+   
+   @keyframes float{
+       0% {
+           transform: translatey(0px);
+         }
+         50% {
+           transform: translatey(-20px);
+         }
+         100% {
+           transform: translatey(0px);
+         }
+   }
+   @keyframes hilite{
+       0%{
+           box-shadow: 0px 0px 20px 20px #3b3b3b;
+       }
+       50%{
+           box-shadow: 0px 0px 20px 20px #797979;
+       }
+       0%{
+           box-shadow: 0px 0px 20px 20px #3b3b3b;
+       }
+   }
+   
+   
+   .logo{
+       max-width: 40px;
+       max-height: 40px;
+       background-color: white;
+       margin-left: 20px;
+       margin-top: 10px;
+       border-radius: 20%;
+   }
+   
+   ul{
+       list-style-type: none; 
+       margin: 0;
+       padding:0;
+   }
+   
+   li{
+       float:right;
+       padding-left: 50px;
+       font-family: 'marola';
+   
+   
+   }
+   
+   a{
+       display: block;
+       padding: 20px;
+       font-size: larger;
+       text-decoration: none;
+       color: antiquewhite;
+       transition: 0.5s;
+   }
+   
+   a:hover{
+       scale: 120%;
+   }
+
+#flower{
+    scale: 70%;
+    padding-left: -190px ;
+    padding-right: -190px;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    font-size: 170px;
+    font-family: 'marola';
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(5, 5, 5);
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 10px 10px #3b3b3b;
+    animation: float 7s ease-in-out infinite;
+}
+
+p{
+    font-family: 'marola';
+    color: #ffffff;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 50px;
+    background-color: rgb(5, 5, 5);
+    padding-bottom: 200px;
+}
+
+.elletitle{
+font-family: 'marola';
+color: #ffffff;
+font-size: 100px;
+padding-left: 100px;
+border-bottom: 4px solid #ffffff;
+}
+
+
+.overviewtitle{
+    padding-top: 100px ;
+    font-family: 'marola';
+color: #ffffff;
+font-size: 80px;
+padding-left: 200px;
+}
+
+colgroup{
+    display: table;
+    justify-content: space-between;
+    margin-left: 200px ;
+    margin-right: 200px ;
+}
+
+.elle{
+    display: table-cell;
+    font-family: 'lemonmilk';
+    padding-left: 200px ;
+    font-size: 20px;
+    text-align: left;
+    line-height: 200%;
+    color: #ffffff;
+    max-width: 50%;
+    background-color: rgb(5, 5, 5);
+}
+
+        #elle1{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+        #elle2{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+        #elle3{
+            width: 403px;
+            height: 420px;
+            
+}
+
+        #elle4{
+            width: 403px;
+            height: 420px;
+}
+
+        #elle5{
+    max-width: 811px;
+    max-height: 850px;
+}
+
+.tasks{
+    display: table-cell;
+    max-width: 50%;
+    font-family: 'marola';
+    padding-top: 20px;
+    font-size: 80px;
+    text-align: right;
+    color: #ffffff;
+    padding-right: 200px ;
+}
+
+#tasks{
+    font-family: "lemonmilk";
+    font-size: 20px;
+    line-height: 400%;
+}
+
+.comstitle{
+    font-family: 'marola';
+color: #ffffff;
+font-size: 100px;
+padding-top: 300px;
+padding-left: 100px;
+border-bottom: 4px solid #ffffff;
+}
+
+.coms{
+    padding-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 200px;
+}
+
+
+#c1{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#c2{
+    max-width: 500px;
+    max-height: 500px;
+}
+#c3{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#c4{
+    width: 540px;
+    height: 460px;
+}
+
+#c5{
+    max-width: 460px;
+    max-height: 460px;
+}
+
+#c6{
+    max-width: 460px;
+    max-height: 540px;
+}
+
+#c7{
+    width: 535px;
+    max-height: 550px;
+}
+
+#c8{
+    width: 540px;
+    max-height: 550px;
+}
+
+#c9{
+    max-width: 400px;
+   height: 550px;
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width:1200px){
+  
+    .logo{
+        max-width: 40px;
+        max-height: 40px;
+    
+    }
+    
+    ul{
+        list-style-type: none; 
+        margin: 0;
+        padding:0;
+        width: 80%;
+    }
+    
+    li{
+        font-family: 'marola';
+        padding-left: 0px;
+    
+    
+    }
+    
+    a{
+        font-size:large;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+  
+    .nav{
+        max-height: 110px;
+    }
+    
+    li{
+        float:left;
+        padding-left: 20px;
+        font-family: 'marola'; 
+        font-size: smaller;
+    }
+
+    #flower{
+        width: 200px;
+        scale: 60%;
+       
+    }
+    
+    header{
+        font-size: 130px;
+
+
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    padding-bottom: 200px;
+}
+
+.elletitle{
+    font-size: 100px;
+    padding-left: 20px;
+    }
+
+    .overviewtitle{
+        font-size: 60px;
+padding-left: 20px;
+    }
+
+    colgroup{
+        margin-left: 20px ;
+        margin-right: 20px ;
+        width: 1200px;
+    
+}
+
+.elle{
+    display: table-cell;
+    padding-left: 20px ;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+#elle1{
+    max-width: 53%;
+    max-height: 300px;
+}
+
+        #elle2{
+    max-width: 200px;
+    max-height: 300px;
+}
+
+        #elle3{
+            width: 202px;
+            height: 202px;
+            
+}
+
+        #elle4{
+            width: 202px;
+            height: 202px;
+}
+
+        #elle5{
+    max-width: 410px;
+    max-height: 400px;
+}
+
+.tasks{
+    display: table-cell;
+    width: 30%;
+    font-size: 60px;
+    margin-left: -40px;
+    text-align: left;
+    padding-right: 30px ;
+    transform: translateY(-990px);
+
+}
+
+#tasks{
+    font-size: 17px;
+    line-height: 300%;
+}
+
+.comstitle{
+    font-size: 70px;
+    padding-top: 100px;
+    padding-left: 20px;
+    margin-top: -400px;
+    border-bottom: 4px solid #ffffff;
+    }
+    
+    .coms{
+        padding-top: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 200px;
+    }
+    
+    
+    #c1{
+        width: 330px;
+        height: 340px;
+        padding-left: 10px;
+    }
+    
+    #c2{
+        width: 330px;
+        height: 340px;
+    }
+    #c3{
+        width: 300px;
+        height: 300px;
+    }
+    
+    #c4{
+        width: 370px;
+        height: 300px;
+    }
+    
+    #c5{
+    padding-left: 150px;
+    }
+    
+    #c6{
+        width: 300px;
+        padding-left: 40px;
+        height: 300px;
+    }
+    
+    #c7{
+        width: 300px;
+        height: 300px;
+    }
+    
+    #c8{
+        width: 440px;
+        height:440px;
+        padding-left: 130px;
+    }
+    
+    #c9{
+       width: 100%;
+       padding-left: 150px;
+       height: 100%;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+
+    .nav{
+        max-height: 110px;
+    }
+    
+    li{
+        float:left;
+        padding-left: 20px;
+        font-family: 'marola'; 
+        font-size: smaller;
+    }
+
+a{
+    font-size: 13px;
+}
+
+    #flower{
+        scale: 60%;
+        width: 100px;
+        height: 200px;
+        padding-left: -40px ;
+       padding-right: -40px;
+       
+    }
+    
+    header{
+        font-size: 80px;
+        text-align: center;
+        height: 200px;
+        margin-top: 50px;
+        width: 460px;
+        display:flex;
+        justify-content: center;
+    }
+
+    p{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
+        padding-bottom: 100px;
+    }
+    
+    .elletitle{
+    font-size: 100px;
+    padding-left: 20px;
+    }
+
+    .overviewtitle{
+        font-size: 60px;
+padding-left: 20px;
+    }
+
+    colgroup{
+        margin-left: 20px ;
+        margin-right: 20px ;
+        width: 600px;
+}
+
+.elle{
+    display: block;
+    padding-left: 20px ;
+    font-size: 15px;
+    max-width: 400px;
+}
+
+#elle1{
+    max-width: 53%;
+    max-height: 60%;
+}
+
+        #elle2{
+    max-width: 200px;
+    max-height: 275px;
+}
+
+        #elle3{
+            width: 200px;
+            height: 180px;
+            
+}
+
+        #elle4{
+            width: 170px;
+            height: 180px;
+}
+
+        #elle5{
+    max-width: 375px;
+    max-height: 400px;
+}
+
+.tasks{
+    display: block;
+    max-width: 100%;
+    margin-top: -900px;
+    font-size: 60px;
+    padding-left: 20px;
+    text-align: left;
+    padding-right: 0px ;
+
+}
+
+#tasks{
+    font-size: 17px;
+    line-height: 300%;
+}
+
+.comstitle{
+font-size: 70px;
+padding-top: 500px;
+padding-left: 20px;
+border-bottom: 4px solid #ffffff;
+}
+
+.coms{
+    padding-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 200px;
+}
+
+
+#c1{
+    width: 220px;
+    height: 240px;
+}
+
+#c2{
+    width: 220px;
+    height: 240px;
+}
+#c3{
+    width: 440px;
+    height: 420px;
+}
+
+#c4{
+    width: 440px;
+    height: 340px;
+}
+
+#c5{
+    width: 440px;
+    height: 500px;
+}
+
+#c6{
+    width: 217px;
+    height: 230px;
+}
+
+#c7{
+    width: 220px;
+    height: 230px;
+}
+
+#c8{
+    width: 440px;
+    height:440px;
+}
+
+#c9{
+   width: 100%;
+   padding-left: 20px;
+   height: 100%;
+}
+
+}

@@ -1,0 +1,282 @@
+
+#myBtn {
+    position: fixed; 
+    background-color: white;
+    color: #3b3b3b; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 20px;
+    border: none; 
+    outline: none;
+    font-size: 22px;
+    font-family: 'marola';
+    bottom: 20px; 
+    right: 30px; 
+    
+  }
+  
+  #myBtn:hover {
+    animation: hilite 2s infinite;
+  }
+.nav{
+    display: flex;
+    background-image: url(Screen\ Shot\ 2022-08-02\ at\ 8.12.49\ PM.png) ;
+    box-shadow: 0px 0px 10px 10px #3b3b3b;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+   }
+   
+   @font-face {
+       font-family: 'marola';
+       src: url(MAROLA__.TTF);
+   }
+   
+   @font-face {
+       font-family: 'lemonmilk';
+       src: url(LEMONMILK-Regular.otf);
+   }
+   
+   @keyframes float{
+       0% {
+           transform: translatey(0px);
+         }
+         50% {
+           transform: translatey(-20px);
+         }
+         100% {
+           transform: translatey(0px);
+         }
+   }
+   @keyframes hilite{
+       0%{
+           box-shadow: 0px 0px 20px 20px #3b3b3b;
+       }
+       50%{
+           box-shadow: 0px 0px 20px 20px #797979;
+       }
+       0%{
+           box-shadow: 0px 0px 20px 20px #3b3b3b;
+       }
+    }
+
+    body{
+        background-color: rgb(5, 5, 5);
+    }
+
+    .logo{
+        max-width: 40px;
+        max-height: 40px;
+        background-color: white;
+        margin-left: 20px;
+        margin-top: 10px;
+        border-radius: 20%;
+    }
+    
+    ul{
+        list-style-type: none; 
+        margin: 0;
+        padding:0;
+    }
+    
+    li{
+        float:right;
+        padding-left: 50px;
+        font-family: 'marola';
+    
+    
+    }
+    
+    a{
+        display: block;
+        padding: 20px;
+        font-size: larger;
+        text-decoration: none;
+        color: antiquewhite;
+        transition: 0.5s;
+    }
+    
+    a:hover{
+        scale: 120%;
+    }
+
+    header{
+        display: flex;
+        justify-content:center;
+        font-size: 170px;
+        font-family: 'marola';
+        margin-top: 100px;
+        margin-bottom: 50px;
+        background-color: rgb(5, 5, 5);
+        color: #ffffff;
+        text-align: center;
+        text-shadow: 10px 10px #3b3b3b;
+        animation: float 7s ease-in-out infinite;
+    }
+
+    p{
+        font-family: 'marola';
+        color: #ffffff;
+        text-align: center;
+        margin-left: 400px;
+        margin-right: 400px;
+        font-size: 50px;
+        background-color: rgb(5, 5, 5);
+        padding-bottom: 200px;
+    }
+
+.works{
+    padding-left: 30px;
+    padding-bottom: 200px;
+}
+
+    .works img{
+        width: 600px;
+        height: 600px;
+    
+    }
+
+
+
+
+    @media only screen and (min-width: 600px) and (max-width:1200px){
+        .logo{
+            max-width: 40px;
+            max-height: 40px;
+        
+        }
+        
+        ul{
+            list-style-type: none; 
+            margin: 0;
+            padding:0;
+            width: 80%;
+        }
+        
+        li{
+            font-family: 'marola';
+            padding-left: 0px;
+        
+        
+        }
+        
+        a{
+            font-size:large;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+      
+        .nav{
+            max-height: 110px;
+        }
+        
+        li{
+            float:left;
+            padding-left: 20px;
+            font-family: 'marola'; 
+            font-size: smaller;
+        }
+    
+        header{
+            font-size: 90px;
+        }
+    
+        
+    .flower1{
+        zoom: 0.3;
+        padding-right: 5px;
+        }
+        
+        .flower2{
+        zoom: 0.3;
+        padding-left: 5px;
+        }
+    
+        p{
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 30px;
+            padding-bottom: 200px;
+        }
+
+        .works{
+            padding-left: 70px;
+        }
+
+        .works img{
+            width: 300px;
+            height: 300px;
+        }
+
+        #tat2{
+            padding-left: 150px;
+        }
+    }
+
+    @media only screen and (max-width: 600px){
+   
+        .nav{
+            max-height: 110px;
+        }
+        
+        a{
+            font-size: 13px;
+        }
+    
+        li{
+            float:left;
+            padding-left: 20px;
+            font-family: 'marola'; 
+            font-size: smaller;
+        }
+    
+        #flower{
+            scale: 60%;
+            width: 100px;
+            height: 200px;
+            padding-left: -40px ;
+           padding-right: -40px;
+           
+        }
+        
+        header{
+            font-size: 55px;
+            text-align: center;
+            height: 200px;
+            margin-top: 50px;
+            width: 460px;
+            display:flex;
+            justify-content: center;
+        }
+    
+        .flower1{
+            zoom: 10%;
+            width: 700px;
+            padding-right: 20px;
+            height:1500px;
+        }
+        
+        .flower2{
+            zoom: 10%;
+            width: 700px;
+            height:1500px;
+        padding-right: 20px;
+        }
+    
+        p{
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 30px;
+            padding-bottom: 100px;
+        } 
+
+        .works img{
+            width: 200px;
+            height: 200px;
+        }
+
+        #tat2{
+            padding-left: 110px;
+        }
+    }
